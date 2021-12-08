@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.soup6020.fabric.purpurclient.mixin",
+  "package": "net.pl3x.fabric.purpurclient.mixin",
   "compatibilityLevel": "JAVA_16",
   "refmap": "purpurclient.refmap.json",
   "client": [
