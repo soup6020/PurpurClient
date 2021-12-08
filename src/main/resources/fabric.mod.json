@@ -5,12 +5,13 @@
   "name": "Purpur Client",
   "description": "Fixes client related issues",
   "authors": [
-    "BillyGalbreath"
+    "BillyGalbreath",
+    "soup6020"
   ],
   "contact": {
-    "homepage": "https://purpur.pl3x.net/",
-    "sources": "https://github.com/pl3xgaming/PurpurClient",
-    "issues": "https://github.com/pl3xgaming/PurpurClient/issues",
+    "homepage": "https://purpurmc.org/",
+    "sources": "https://github.com/soup6020/PurpurClient",
+    "issues": "https://github.com/soup6020/PurpurClient/issues",
     "discord": "https://discord.gg/mtAAnkk"
   },
   "license": "MIT",
@@ -18,7 +19,7 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "net.pl3x.fabric.purpurclient.PurpurClient"
+      "net.soup6020.fabric.purpurclient.PurpurClient"
     ]
   },
   "mixins": [
@@ -28,6 +29,6 @@
   "depends": {
     "fabricloader": ">=0.11.6",
     "fabric": "*",
-    "minecraft": "1.17.1"
+    "minecraft": "1.18"
   }
 }
