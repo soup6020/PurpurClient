@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "purpurclient",
+  "id": "purpurclient-fork",
   "version": "${version}",
-  "name": "Purpur Client",
-  "description": "Fixes client related issues",
+  "name": "Purpur Client Mod",
+  "description": "Fixes client related issues on 1.18",
   "authors": [
     "BillyGalbreath",
     "soup6020"
@@ -19,7 +19,7 @@
   "environment": "client",
   "entrypoints": {
     "main": [
-      "net.soup6020.fabric.purpurclient.PurpurClient"
+      "net.pl3x.fabric.purpurclient.PurpurClient"
     ]
   },
   "mixins": [
